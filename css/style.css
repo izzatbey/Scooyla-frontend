@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*   {
+    box-sizing: border-box;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+body {
+    background: #FFF;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+    background: #DBF6E9;
+    color: #FFF;
+    padding: 20px 30px;
+}
+
+#logo {
+    display: inline-block;
+    color: #FFF;
+    text-decoration: none;
+    width: 15%;
+}
+
+#logo img {
+    width: 50%;
+    border-radius: 3px;
+    margin-right: 8px;
+    vertical-align: middle;
+}
+
+#navbar {
+    background-color: #DBF6E9; /* Black background color */
+    position: fixed;
+  top: -50px;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+  }
+
+nav {
+    width: 50%;
+    display: inline-block;
+    text-align: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    font-weight: bold;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    margin-right: 50px;
+    border-radius: 3px;
+    transition: 0.3s ease all;
+}
+
+nav ul li a:hover {
+    background: #007580;
+    color: #FFF;
+}
+
+footer   {
+    background: #194350;
+    color: #FFF;
+    padding: 40px;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+/* main content style */
+
+.homepage {
+    min-height: 800px;
+    text-align: left;
+    background-image: url('../img/background2.png');
+    background-size: cover;
+    background-color: #DBF6E9;
+    background-position: 280px;
+    background-size: 1920px;
+    
+}
+
+.homepage-content {
+  color: rgb(39, 94, 119);
+  padding: 15px 150px;
+  text-decoration: none;
+}
+
+.homepage-button {
+    display: inline-block;
+    color: #007580;
+    border: 3px solid #007580;
+    border-radius: 3px;
+    padding: 15px 30px;
+    margin: 20px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.homepage-title {
+    margin: 0;
+    padding-top: 250px;
+    font-size: 50px;
+    flex-grow: 1;
+    max-width: 500px;
+}
+
+.homepage-paragraph {
+    flex-grow: 1;
+    margin: 0;
+    padding-right: 50px;
+    font-size: 20px;
+    max-width: 500px;
+}
+
+/* services sections */
+.service-site {
+    flex-grow: 2;
+    margin-left: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.service-site-inside {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.service-header h2 {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #007580;
+}
+
+.feature-box {
+    flex-grow: 1;
+    display: inline-block;
+    width: 33%;
+}
+.feature-box img  {
+    margin-bottom: 12px;
+    width: 80px;
+  }
+  .feature-box h5   {
+    font-size: 20px;
+    color: #999;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0;
+  }
+
+/* testimony aside */
+
+.testimony-site {
+    flex-grow: 2;
+    margin-top: 100px;
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: #DBF6E9;
+}
+
+.testimony-content {
+  background: #FFF;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.testimony-author           {
+
+}
+.testimony-author img {
+  float: right;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+
+/* contact us */
+
+.contact-site {
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.contact-inside {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.contact-header {
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.contact-box {
+    display: inline-block;
+    width: 33%;
+    padding: 20px 30px;
+}
+
+.contact-box img {
+    margin-bottom: 12px;
+    width: 200px;
+    border-radius: 50%;
+    margin-right: 15px;
+    vertical-align: middle;
+}
+
+.contact-desc {
+    display: inline-block;
+    text-align: center;
+}
